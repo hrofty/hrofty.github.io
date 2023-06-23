@@ -1,6 +1,6 @@
 // npm run dev
 
-import * as THREE from 'three/build/three'
+import * as THREE from 'three'
 import "./style.css"
 import { FirstPersonControls } from 'three/examples/jsm/controls/FirstPersonControls'
 
