@@ -7,22 +7,13 @@ import { FirstPersonControls } from 'three/examples/jsm/controls/FirstPersonCont
 class Microdistrict {
   constructor() {
     //Canvas size
-    const sizes = {
-      width: window.innerWidth,
-      height: window.innerHeight
     }
     
   }
-
-
-
-
-
-
-
-
+const sizes = {
+  width: window.innerWidth,
+  height: window.innerHeight
 }
-
 
 const clock = new THREE.Clock();
 
