@@ -1,8 +1,8 @@
 // npm run dev
 
-import * as THREE from './node_modules/three'
+import * as THREE from 'three/build/three'
 import "./style.css"
-import { FirstPersonControls } from './node_modules/three/examples/jsm/controls/FirstPersonControls.js'
+import { FirstPersonControls } from 'three/examples/jsm/controls/FirstPersonControls'
 
 class Microdistrict {
   constructor() {
