@@ -1,4 +1,5 @@
 // npm run dev
+// npx vite build
 
 import * as THREE from 'three'
 import "./style.css"
