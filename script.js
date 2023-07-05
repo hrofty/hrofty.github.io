@@ -223,7 +223,7 @@ animate();
 function init() {
 
   camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 1, 3000 );
-  
+  camera.position.y = 30;
   world = new THREE.Group();
 
   scene = new THREE.Scene();
