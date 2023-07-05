@@ -273,6 +273,15 @@ function init() {
   floor.receiveShadow = true;
   world.add(floor);
 
+  //box
+  const geometry = new THREE.BoxGeometry( 30, 30, 30 );
+  const material = new THREE.MeshBasicMaterial( { color: 0x0c0d0f } );
+  const cube = new THREE.Mesh( geometry, material );
+  cube.position.z = -40;
+  cube.position.y = 30;
+  world.add( cube );
+
+
   
   scene.add( world );
 
